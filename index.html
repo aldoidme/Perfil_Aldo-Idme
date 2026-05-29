@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Aldo Erickson Idme Puma - CIENCIA DE LA COMPUTACION</title>
+		<meta
+			name="description"
+			content="Perfil profesional de Aldo Erickson Idme Puma, Arequipa Peru. Egresado tecnico en Desarrollo y Diseno de Software, interesado en Start Ups, Actualmente estudianndo Ciencia de la Computacion en la Universidad Catolica San Pablo."
+		/>
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap");
+
+			:root {
+				--bg-1: #f6f6f4;
+				--bg-2: #ffffff;
+				--text: #1e1e1e;
+				--muted: #5f5f5f;
+				--border: #e6e6e6;
+				--accent: #1f4b52;
+			}
+
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				margin: 0;
+				font-family: "Space Grotesk", "Segoe UI", sans-serif;
+				color: var(--text);
+				background: radial-gradient(
+						1200px 600px at 10% -10%,
+						#ffffff 0%,
+						var(--bg-1) 45%,
+						var(--bg-2) 100%
+					);
+			}
+
+			.page {
+				max-width: 860px;
+				margin: 56px auto;
+				padding: 36px 32px;
+				background: var(--bg-2);
+				border: 1px solid var(--border);
+				border-radius: 20px;
+				box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
+			}
+
+			header {
+				display: grid;
+				grid-template-columns: 120px 1fr;
+				gap: 24px;
+				align-items: center;
+				margin-bottom: 24px;
+			}
+
+			.avatar {
+				width: 120px;
+				height: 120px;
+				border-radius: 50%;
+				object-fit: cover;
+				border: 2px solid var(--border);
+				background: #f1f1f1;
+			}
+
+			h1 {
+				font-family: "Source Serif 4", "Times New Roman", serif;
+				font-size: clamp(2rem, 2.6vw, 2.6rem);
+				margin: 0 0 6px;
+				color: var(--accent);
+				letter-spacing: 0.2px;
+			}
+
+			.subtitle {
+				font-size: 1rem;
+				color: var(--muted);
+				margin: 0 0 12px;
+			}
+
+			.intro {
+				font-size: 1.02rem;
+				line-height: 1.6;
+				margin: 0;
+			}
+
+			section {
+				margin-top: 28px;
+			}
+
+			h2 {
+				font-size: 1.1rem;
+				text-transform: uppercase;
+				letter-spacing: 1.5px;
+				color: var(--muted);
+				margin: 0 0 12px;
+			}
+
+			ul {
+				margin: 0;
+				padding-left: 18px;
+				line-height: 1.6;
+			}
+
+			.links {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 12px;
+			}
+
+			.links a {
+				color: var(--accent);
+				text-decoration: none;
+				border-bottom: 1px solid transparent;
+				padding-bottom: 2px;
+			}
+
+			.links a:hover {
+				border-color: var(--accent);
+			}
+
+			.tags {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 10px;
+			}
+
+			.tag {
+				border: 1px solid var(--border);
+				border-radius: 999px;
+				padding: 6px 12px;
+				font-size: 0.95rem;
+				background: #fafafa;
+			}
+
+			@media (max-width: 700px) {
+				header {
+					grid-template-columns: 1fr;
+					text-align: center;
+				}
+
+				.avatar {
+					margin: 0 auto;
+				}
+
+				.links {
+					justify-content: center;
+				}
+
+				.tags {
+					justify-content: center;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<main class="page">
+			<header>
+				<img
+					class="avatar"
+					src="PERFIL.png"
+					alt="Foto de perfil de Aldo Erickson Idme Puma"
+				/>
+				<div>
+					<h1>Aldo Erickson Idme Puma</h1>
+					<p class="subtitle">Arequipa, Peru</p>
+					<p class="intro">
+						Aldo Erickson Idme Puma egresado de Tecsup en Desarrollo y Diseno de Software, Estudiante de la Universidad Catolica San Pablo, intersado en tecgnologias moderdas, Start Ups.
+					</p>
+				</div>
+			</header>
+
+			<section>
+				<h2>Educacion</h2>
+				<ul>
+					<li>Colegio Militar Francisco Bolognesi</li>
+					<li>Tecsup - Desarrollo y Diseno de Software (Graduado 2025)</li>
+					<li>UCSP - Estudiante de Ciencia de la Computacion</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Enlaces oficiales</h2>
+				<div class="links">
+					<a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+						LinkedIn
+					</a>
+					<a href="https://ucsp.edu.pe/" target="_blank" rel="noopener noreferrer">
+						UCSP
+					</a>
+					<a href="https://www.tecsup.edu.pe/" target="_blank" rel="noopener noreferrer">
+						Tecsup
+					</a>
+					<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+						GitHub
+					</a>
+					<a href="https://cmfb.gob.pe/" target="_blank" rel="noopener noreferrer">
+						Colegio Militar Francisco Bolognesi
+					</a>
+				</div>
+			</section>
+
+			<section>
+				<h2>Tecnologias</h2>
+				<div class="tags">
+					<span class="tag">Python</span>
+					<span class="tag">Kotlin</span>
+					<span class="tag">Laravel</span>
+					<span class="tag">React</span>
+					<span class="tag">MySQL</span>
+					<span class="tag">HTML</span>
+					<span class="tag">CSS</span>
+					<span class="tag">GitHub</span>
+				</div>
+			</section>
+
+			<section>
+				<h2>Proyectos</h2>
+				<ul>
+					<li>Luka - proyecto universitario de automatizacion de cobro en transporte publico (aplicativo)</li>
+					<li>Desarrollo web con HTML y CSS</li>
+					<li>APIs y backend basico</li>
+				</ul>
+			</section>
+
+		</main>
+	</body>
+</html>
